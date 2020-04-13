@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+
+
+/* ////////////////////  BIENVENIDOS A MI PORTAFOLIO /////////////////// */
+
+.bienvenidos {
+  background: url('../images/fondo4.jpg');
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; /* esto es porque cuando le dimos el margin top al texto-bienvenido, el fondo se mueve, entonces con esta propiedad, ya se queda estático el fondo */
+}
+
+.texto-bienvenido {
+  color: #ffffff;
+  margin-top: 8rem; 
+  margin-left: 8rem; 
+  margin-right: 8rem; 
+  background-color: rgba(0, 0, 0, 0.753);
+  border-radius: 50%;
+}
+
+.profile-photo {
+   border-radius: 50%;
+   position: relative;
+} 
+
+.icons-contact .fa {
+  color: #f76903;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+/* ////////////////////////////// ACERCA DE MI //////////////////////////// */
+
+.quien-soy {
+  background-color: #343a40;
+  color: white ;
+}
+
+/* ////////////////////////////// HABILIDADES ////////////////////////////////////*/
+
+.title-habilidades{
+  color: #ffffff;
+  background-color: #343a40;
+}
+
+.title-hab {
+  color: #ffffff;
+  background-color: #343a40;
+}
+
+.habilidades .h2 {
+  font-weight: bold;
+}
+
+.habilidades .h6 {
+  font-weight: bold;
+}
+
+.icons-habilidades {
+  margin-bottom: 4%;
+  border: 1px black solid;
+}
+
+/*.icons-habilidades .fa-java{
+  color: #f76903;
+  font-size: 2rem;
+  margin: 10px;
+}*/
+
+.icons-habilidades .fa-html5{
+  color: #f76903;
+  font-size: 4rem;
+  margin: 12px;
+}
+
+.icons-habilidades .fa-css3-alt{
+  color: #0365f7;
+  font-size: 4rem;
+  margin: 12px;
+}
+
+.icons-habilidades .fa-js{
+  color: #fcf805;
+  font-size: 4rem;
+  margin: 12px;
+}
+
+.icons-habilidades .fa-bootstrap{
+  color: #8729a3;
+  font-size: 4rem;
+  margin: 12px;
+}
+
+.icons-habilidades .fa-react{
+  color: #1e8d91;
+  font-size: 4rem;
+  margin: 12px;
+}
+
+.icons-habilidades .img {
+  margin: 12px;
+}
+
+
+/* ///////////////////// MIS PROYECTOS /////////////////////// */
+
+
+.proyectos {
+  background: url('../images/fondo4.jpg');
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; /* esto es porque cuando le dimos el margin top al texto-bienvenido, el fondo se mueve, entonces con esta propiedad, ya se queda estático el fondo */
+}
+
+.title-proyectos {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+/* .proyectos {
+  background-color: #ec731e;
+  color: #ffffff;
+} */
+
+.proyectos img {
+  margin-bottom: 2rem;
+  min-width: 100%;  /*para que no se desborde la imagen */
+  border-radius: 8%;
+  border: 4px black solid;
+}
+
+.proyectos a:hover img{
+  /*transform: scale(1.5);*/
+  border-radius: 50%;
+  box-shadow:  0px 0px 15px 15px #1f1a17;
+}
+
+/* //////////////////////////// FOOTER //////////////////////////// */
+
+.footer {
+  color: #ffffff;
+  background-color: black;
+}
+
+.icons-footer .fa {
+  color: #f76903;
+  font-size: 2rem;
+  margin: 10px;
+}
+
